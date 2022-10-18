@@ -1,0 +1,3 @@
+RJ45 network interface USES TCP protocol, TCP Client and Server mode coexist, can be used at the same time.
+
+When the OPEN function in SDK development kit is opened, the SDK will automatically detect the network. When the network is disconnected, the customer does not need to call the OPEN function again. When the network cable is automatically plugged in or the network is restored, the SDK will automatically reconnect.

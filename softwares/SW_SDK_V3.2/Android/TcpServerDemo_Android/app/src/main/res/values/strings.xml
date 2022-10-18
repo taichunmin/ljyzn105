@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="title_home">Connect</string>
+    <string name="title_dashboard">Set</string>
+    <string name="title_notifications">Read</string>
+    <string name="rfpower">RFPower</string>
+    <string name="ip">IP</string>
+    <string name="read">Read</string>
+    <string name="_0_answermode_1_activemode">0:AnswerMode 1:ActiveMode</string>
+    <string name="set">Set</string>
+    <string name="freq">Freq</string>
+    <string name="workmode">WorkMode</string>
+    <string name="beep">Beep</string>
+    <string name="_26">26</string>
+    <string name="_0_us_1_eu_2_cn_3_kr_4_au">0:US 1:EU 2:CN 3:KR 4:AU</string>
+    <string name="active">Active</string>
+    <string name="count">Count</string>
+    <string name="tagcnt">TagCnt</string>
+    <string name="_0">0</string>
+    <string name="answer">Answer</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="port">Port</string>
+    <string name="ipdefault">192.168.1.250</string>
+    <string name="portdefault">60000</string>
+    <string name="stop">Stop</string>
+</resources>

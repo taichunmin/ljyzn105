@@ -1,0 +1,234 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\ScanDevice.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ScanDevice.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_SET DIALOGEX 0, 0, 283, 173
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "SetNetParam"
+FONT 9, "微软雅黑", 400, 0, 0x86
+BEGIN
+    DEFPUSHBUTTON   "Set",IDOK,116,148,47,14
+    PUSHBUTTON      "Cancel",IDCANCEL,188,148,47,14
+    EDITTEXT        IDC_EDIT_SN,53,7,84,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "DevSN:",IDC_STATIC,9,9,34,8
+    LTEXT           "MAC:",IDC_STATIC,144,10,34,8
+    EDITTEXT        IDC_EDIT_MACADDR,186,7,79,12,ES_AUTOHSCROLL
+    LTEXT           "IP:",IDC_STATIC,9,26,26,8
+    CONTROL         "",IDC_IPADDRESS1,"SysIPAddress32",WS_TABSTOP,53,24,84,12
+    LTEXT           "Mask:",IDC_STATIC,9,43,36,8
+    CONTROL         "",IDC_IPADDRESS2,"SysIPAddress32",WS_TABSTOP,53,42,84,12
+    CONTROL         "",IDC_IPADDRESS3,"SysIPAddress32",WS_TABSTOP,53,59,84,12
+    CONTROL         "",IDC_IPADDRESS4,"SysIPAddress32",WS_TABSTOP,53,77,84,12
+    LTEXT           "Gate:",IDC_STATIC,9,63,36,8
+    LTEXT           "DistIP:",IDC_STATIC,9,80,26,8
+    LTEXT           "LocalPort:",IDC_STATIC,144,27,36,8
+    LTEXT           "DistPort:",IDC_STATIC,144,79,36,8
+    EDITTEXT        IDC_EDIT3,186,25,40,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,185,77,40,12,ES_AUTOHSCROLL
+    CONTROL         "DHCP",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,97,50,10
+    CONTROL         "DNS",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,112,45,10
+    EDITTEXT        IDC_EDIT5,53,110,194,12,ES_AUTOHSCROLL
+    LTEXT           "HeartTime:",IDC_STATIC,9,129,36,8
+    EDITTEXT        IDC_EDIT6,53,127,40,12,ES_AUTOHSCROLL
+    LTEXT           "(0 - 255) Unit *10S",IDC_STATIC,98,129,71,8
+    PUSHBUTTON      "Read",IDC_BUTTON3,45,148,47,14
+END
+
+IDD_SCANDEVICE_DIALOG DIALOGEX 0, 0, 447, 244
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ScanDevice V1.4"
+FONT 9, "微软雅黑", 400, 0, 0x86
+BEGIN
+    CONTROL         "",IDC_LIST_READERS,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,5,23,437,220
+    PUSHBUTTON      "Start",IDC_BTN_START,327,4,49,15
+    PUSHBUTTON      "Set",IDC_BTN_SET,392,4,49,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_SET, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 276
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 166
+    END
+
+    IDD_SCANDEVICE_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 442
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 243
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "ScanDevice"
+            VALUE "FileVersion", "1.3.0.0"
+            VALUE "InternalName", "ScanDevice.exe"
+            VALUE "LegalCopyright", "SWCT.  All rights reserved."
+            VALUE "OriginalFilename", "ScanDevice.exe"
+            VALUE "ProductName", "ScanDevice"
+            VALUE "ProductVersion", "1.3.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\ScanDevice.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

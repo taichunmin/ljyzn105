@@ -1,0 +1,6 @@
+ActiveMode refers to the automatic card reading after the device is powered on, which is transmitted to the designated communication interface according to the set interface.
+Interface can be USB,  RS232/RS485£¬ RJ45£¬ Keyboard£¬WIFI£¬ 4G, Bluetooth.
+Keyboard is the virtual Keyboard output.
+
+Use ReaderSoft ,  ParameterSet->Interface select  your interface such as RJ45,RS232.
+then ParamterSet->WorkMde select ActiveMode.

@@ -1,0 +1,22 @@
+Some readers support Relay control
+Relay have 3 port wire,  COM, KOFF,KON
+COM is public side, KOFF default disconnect with COM, KON default connect with COM.
+
+Eg:
+if you want to use Relay to control Warning Light.
+COM wire connect with Light Power positive, or you can use reader power positive.
+KOFF connect with Light positive.
+Light negative electrode connect with Reader Power negative electrode(GND)
+After connect, default the light is no work.
+
+if you want to light default work, KON connect with Light positive.
+
+Soft control:
+Use ReaderSoft CloseRelay button ,  KOFF connect with COM, KON disconnect with COM
+                        ReleaseRelay button, KOFF disconnect with COM, KON connect with COM
+If you want use relay automatic, use ReaderSoft to set relay,  AdvanceSet - > Relay, select Relay, and set ValidTime, normal validtime set 3 second is ok.
+After set it, every read tag, the Relay will auto close, after the validtime , the relay release.
+
+If you want to control Relay by yourself, Use the SDK function RelayOn and RelayOff.
+RelayOn ( mean KOFF connect with COM, KON disconnect with COM)
+RelayOff ( mean KOFF disconnect with COM, KON connect with COM)

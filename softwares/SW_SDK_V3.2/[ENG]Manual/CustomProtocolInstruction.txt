@@ -1,0 +1,6 @@
+CustomProtocol:
+If the communication protocol is customed, the protocol format is:
+0x02 + ASC ID + 0x0D + 0x0A + 0x03
+Eg:
+Rev: 02 30 30 31 31 32 32 33 33 34 34 35 35 36 36 37 37 38 38 39 39 41 41 42 42 0D 0A 03
+The Tag ID is ¡°00112233445566778899AABB¡±

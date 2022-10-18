@@ -1,0 +1,62 @@
+[Bug level define]
+0:  ignore
+1:  hard
+2:  very hard
+3:  need deal immediately
+
+[Bug 等级定义]
+0: 可以忽略
+1: 轻微BUG, 可处理或者不处理
+2: 严重BUG
+3: 非常严重，已经影响使用，必须替换原始程序
+
+[SDK_3.2] -- Release in 2020.06.01
+1. Add Linux Java demo
+2. Add Android Demo
+
+[SDK_3.2] -- 发行时间 2020.06.01
+1. 增加Linux Java代码
+2. 增加安卓演示代码
+
+[SDK_3.1] -- Release in 2020.04.15
+1. Repair USB list bug, cancel the usb keyboard type.  [bug level: 0]
+2. Repair Tcpserver memory of stack overflow.  [bug level: 2]
+3. Change dll memory mode, from static memory to dynamic memory.  
+4. Add NodeJS ( Javascript ) code
+5. Support TimeStamp format protocol
+6: Add help file and user documentation
+
+[SDK_3.1] -- 发行时间 2020.04.15
+1. 修复USB扫描BUG，去除扫描到的键盘类型  [bug level: 0]
+2. 修复 Tcpserver 栈内存溢出BUG.  [bug level: 2]
+3. 改变DLL内的内存方式，由静态内存变成动态申请内存方式.  
+4. 增加 NodeJS ( Javascript ) 演示代码
+5. 支持 TimeStamp （时间戳）数据格式
+6: 增加使用及帮助文档，同时把文档归类
+
+[SDK_3.0] -- Release in 2020.03.25
+1.Add Java code
+2.Add Android Code
+
+[SDK_3.0] -- 发行时间 2020.03.25
+1.增加JAVA演示代码
+2.增加安卓演示代码
+
+[SDK_2.9] -- Release in 2020.03.01
+1.Add TcpServer Mode Code
+2.Add Freqency set and read fuction code.
+3.Add Freqency set and read fuction communication protocol.
+4.Add Aduino code.
+5.Add QT code
+6.Add ScanNet Code
+7.Add Python Code
+
+[SDK_2.9] -- 发行时间 2020.03.01
+1.增加TcpServer模式下代码
+2.增加频率设置及读取代码
+3.增加频率设置通讯协议
+4.增加Aduino演示代码
+5.增加QT演示代码
+6.增加扫描网络程序示例
+7.增加Python演示代码
+

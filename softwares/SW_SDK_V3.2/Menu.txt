@@ -1,0 +1,96 @@
+[Memu list]
+Android:  
+    TcpClient Code
+    TcpServer Code
+    Com Code
+    USB Code
+    Bluetooth Code
+Arduino
+    Com Code
+ARM
+    TcpClient Code
+    Com Code
+    USB Code
+COM
+    X86
+        C# Code
+        C++ Code
+        Delphi Code
+        JAVA Code
+        Linux Code
+        VB Code
+    X64
+        C# Code
+        C++ Code
+        Delphi Code
+        JAVA Code
+        Linux Code
+        VB Code
+USB
+    X86
+        C# Code
+        C++ Code
+        Delphi Code
+        JAVA Code
+        Linux Code
+        VB Code
+    X64
+        C# Code
+        C++ Code
+        Delphi Code
+        JAVA Code
+        Linux Code
+        VB Code
+TcpCient
+    X86
+        C# Code
+        C++ Code
+        Delphi Code
+        JAVA Code
+        Linux Code
+        VB Code
+    X64
+        C# Code
+        C++ Code
+        Delphi Code
+        JAVA Code
+        Linux Code
+        VB Code
+TcpServer
+    X86
+        C# Code
+        C++ Code
+        Delphi Code
+        VB Code
+    X64
+        C# Code
+        C++ Code
+        Delphi Code
+        VB Code
+NodeJS
+    TcpClient Code
+    Com Code
+    USB Code
+Python
+    X86
+        TcpClient Code
+        Com Code
+        USB Code
+    X64
+        TcpClient Code
+        Com Code
+        USB Code
+QT
+        Com Code
+        RaspbianPI Com Code
+RaspbianPI
+        TcpClient Code
+        Com Code
+        USB Code
+ScanNetCode
+    X86
+        C# Code
+        C++ Code
+    X64
+        C# Code
+        C++ Code

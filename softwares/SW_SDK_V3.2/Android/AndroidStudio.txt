@@ -1,0 +1,3 @@
+Compile with AndroidStudio
+MinSupport:  Android 4.1
+JAVA Version:1.8

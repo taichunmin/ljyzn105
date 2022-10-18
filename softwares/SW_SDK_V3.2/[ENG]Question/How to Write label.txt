@@ -1,0 +1,16 @@
+First, you need to set the device working mode to AnswerMode.
+Use ReaderSoft,  ParameterSet->WorkMode select AnswerMode.
+
+Then click the AnswerMode in the interface bar and write the card with the write button.
+Where A fast write EPC refers to A write card number that can only be entered in 0-9, A-F, with A length multiple of 4 (HEX format).
+
+Using this button to write the card will change the card number length, for example, write 1234 and the card number will become 1234 and the length will become 2 bytes
+
+When the card writer is connected, the interface will see the option "Auto, Increase". The software will automatically write the card and the card number will be added 1 after checking. The user only needs to put a label on the card writer.
+
+FastWriteEPC (DEC, Only ForWG26) : The FastWriteEPC (DEC, Only ForWG26) refers to the card number written in decimal digits, with the maximum length of 10 digits, and the card number automatically modified to 4 bytes. The card number corresponds to the card number on the Weigand Controller software. After writing the card, if the card is read by the card reader of our company while weigand output, please set ParameterSet->StartAddress to 1 (WG26); if output is WG34, please set ParameterSet->StartAddress to 0.
+
+If you want to set the label password, select Reserved in AnswerMode ->Region, and then AnswerMode -> StartAdd 02, the read/write length is set to 02, fill in the write data with the password to be set, and click the write button on the right.
+
+
+Users can also write label using the write card function in the SDK, refer to the SDK sample code for details.

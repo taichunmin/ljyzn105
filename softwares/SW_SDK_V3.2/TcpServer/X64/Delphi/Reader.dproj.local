@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899/12/30 00:00:00.000.251,G:\PCBProject\HidProject\New\Device\TestOK\DeviceCode\UHF\UHFCode\CF5300\CF Version\SDK\del\Unit1.dfm=C:\Users\Joe\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.549,=C:\Users\Joe\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.251,G:\PCBProject\HidProject\New\Device\TestOK\DeviceCode\UHF\UHFCode\CF5300\CF Version\SDK\del\Unit1.pas=C:\Users\Joe\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.995,G:\PCBProject\HidProject\New\Device\TestOK\DeviceCode\UHF\UHFCode\CF5300\CF Version\SDK\del\Reader.dproj=C:\Users\Joe\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/03/09 16:04:56.000.178,=F:\SWNetServerApi\Delphi\SWNetServerApi.pas</Transaction>
+  </Transactions>
+</BorlandProject>

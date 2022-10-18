@@ -1,0 +1,8 @@
+[Version 3.1]
+1.Support 0401 0402 6500 device type
+2.Solution Memory overflow
+
+[Version 3.0]
+1. Add Active Reader Set
+2. Change Hello Picture
+3. Add WhiteList Tag

@@ -1,0 +1,11 @@
+
+
+
+
+
+
+
+
+
+
+SUBSYSTEM=="usb",ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="e010", MODE="666", GROUP+="plugdev"

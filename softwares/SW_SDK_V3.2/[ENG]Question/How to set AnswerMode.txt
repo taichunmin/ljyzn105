@@ -1,0 +1,4 @@
+AnswerMode mean after reader power up, the reader do not read tag, The user needs to send a read command to read the card, and each read command read the card once.
+
+Use ReaderSoft ,  ParameterSet->Interface select  your interface such as RJ45,RS232.
+then ParamterSet->WorkMde select AnswerMode.

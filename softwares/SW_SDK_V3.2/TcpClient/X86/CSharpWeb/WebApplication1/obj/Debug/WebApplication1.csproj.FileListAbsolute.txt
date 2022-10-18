@@ -1,0 +1,10 @@
+d:\Test\WebApplication1\WebApplication1\bin\WebApplication1.dll
+d:\Test\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+d:\Test\WebApplication1\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+d:\Test\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+d:\Test\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\Test\WebDemo\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\Test\WebDemo\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\Test\WebDemo\WebApplication1\WebApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\Test\WebDemo\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\Test\WebDemo\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

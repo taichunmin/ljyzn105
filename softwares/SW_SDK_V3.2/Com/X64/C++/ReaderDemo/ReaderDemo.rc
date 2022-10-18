@@ -1,0 +1,297 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ReaderDemo.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ReaderDemo.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_READERDEMO_DIALOG DIALOGEX 0, 0, 263, 213
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Com"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO1,40,19,67,66,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Connection",IDC_STATIC,7,7,126,56
+    PUSHBUTTON      "Open",IDC_BUTTON_OPEN,17,38,50,14
+    PUSHBUTTON      "Close",IDC_BUTTON_CLOSE,78,38,50,14
+    EDITTEXT        IDC_EDIT1,7,124,250,81,ES_MULTILINE | ES_AUTOVSCROLL | WS_VSCROLL
+    GROUPBOX        "ActiveMode CallBack",IDC_STATIC,14,88,120,30
+    GROUPBOX        "AnswerMode",IDC_STATIC,143,88,113,30
+    PUSHBUTTON      "Reading",IDC_BUTTON10,21,100,50,14
+    PUSHBUTTON      "Stop",IDC_BUTTON11,79,100,50,14
+    PUSHBUTTON      "Read",IDC_BUTTON12,155,101,50,14
+    PUSHBUTTON      "WriteTag",IDC_BUTTON14,156,71,50,14
+    PUSHBUTTON      "ReadRFPower",IDC_BUTTON1,198,18,50,14
+    PUSHBUTTON      "SetRFPower",IDC_BUTTON2,198,42,50,14
+    PUSHBUTTON      "RelayOn",IDC_BUTTON3,22,70,50,14
+    PUSHBUTTON      "RelayOff",IDC_BUTTON4,79,71,50,14
+    COMBOBOX        IDC_COMBO2,141,18,48,86,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: "
+            VALUE "FileDescription", "TODO: "
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "ReaderDemo.exe"
+            VALUE "LegalCopyright", "TODO: (C) "
+            VALUE "OriginalFilename", "ReaderDemo.exe"
+            VALUE "ProductName", "TODO:"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_READERDEMO_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 256
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 206
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_READERDEMO_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 5, 0
+0x4f43, 0x314d, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x4f43, 0x324d, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x4f43, 0x334d, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x4f43, 0x344d, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x4f43, 0x354d, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x4f43, 0x364d, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x4f43, 0x374d, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x4f43, 0x384d, "\000" 
+    IDC_COMBO1, 0x403, 5, 0
+0x4f43, 0x394d, "\000" 
+    IDC_COMBO1, 0x403, 6, 0
+0x4f43, 0x314d, 0x0030, 
+    IDC_COMBO1, 0x403, 6, 0
+0x4f43, 0x314d, 0x0031, 
+    IDC_COMBO1, 0x403, 6, 0
+0x4f43, 0x314d, 0x0032, 
+    IDC_COMBO1, 0x403, 6, 0
+0x4f43, 0x314d, 0x0033, 
+    IDC_COMBO1, 0x403, 6, 0
+0x4f43, 0x314d, 0x0034, 
+    IDC_COMBO1, 0x403, 6, 0
+0x4f43, 0x314d, 0x0035, 
+    IDC_COMBO1, 0x403, 6, 0
+0x4f43, 0x314d, 0x0036, 
+    IDC_COMBO1, 0x403, 6, 0
+0x4f43, 0x314d, 0x0037, 
+    IDC_COMBO1, 0x403, 6, 0
+0x4f43, 0x314d, 0x0038, 
+    IDC_COMBO1, 0x403, 6, 0
+0x4f43, 0x314d, 0x0039, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0030, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0031, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0032, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0033, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0034, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0035, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0036, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0037, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0038, 
+    IDC_COMBO2, 0x403, 2, 0
+0x0039, 
+    IDC_COMBO2, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3131, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3231, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3331, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3431, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3631, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3731, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3831, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3931, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3132, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3232, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3332, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3432, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3532, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3632, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3732, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3832, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3932, "\000" 
+    IDC_COMBO2, 0x403, 3, 0
+0x3033, "\000" 
+    0
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ReaderDemo.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,25 @@
+d:\Test\WebApplication1\WebApplication1\bin\x86\Debug\WebApplication1.dll
+d:\Test\WebApplication1\WebApplication1\bin\x86\Debug\WebApplication1.pdb
+d:\Test\WebApplication1\WebApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\Test\WebApplication1\WebApplication1\obj\x86\Debug\WebApplication1.dll
+d:\Test\WebApplication1\WebApplication1\obj\x86\Debug\WebApplication1.pdb
+G:\PCBProject\HidProject\New\Device\TestOK\DeviceCode\UHF\UHFCode\CF5300\CF Version\CF_SDK_V2.7\X86\Net\C#Web\WebApplication1\bin\x86\Debug\WebApplication1.dll
+G:\PCBProject\HidProject\New\Device\TestOK\DeviceCode\UHF\UHFCode\CF5300\CF Version\CF_SDK_V2.7\X86\Net\C#Web\WebApplication1\bin\x86\Debug\WebApplication1.pdb
+G:\PCBProject\HidProject\New\Device\TestOK\DeviceCode\UHF\UHFCode\CF5300\CF Version\CF_SDK_V2.7\X86\Net\C#Web\WebApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\PCBProject\HidProject\New\Device\TestOK\DeviceCode\UHF\UHFCode\CF5300\CF Version\CF_SDK_V2.7\X86\Net\C#Web\WebApplication1\obj\x86\Debug\WebApplication1.dll
+G:\PCBProject\HidProject\New\Device\TestOK\DeviceCode\UHF\UHFCode\CF5300\CF Version\CF_SDK_V2.7\X86\Net\C#Web\WebApplication1\obj\x86\Debug\WebApplication1.pdb
+G:\UHF\UHFCode\CF5300\CF_SDK_V2.9\X86\TcpClient\C#Web\WebApplication1\bin\x86\Debug\WebApplication1.dll
+G:\UHF\UHFCode\CF5300\CF_SDK_V2.9\X86\TcpClient\C#Web\WebApplication1\bin\x86\Debug\WebApplication1.pdb
+G:\UHF\UHFCode\CF5300\CF_SDK_V2.9\X86\TcpClient\C#Web\WebApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\UHF\UHFCode\CF5300\CF_SDK_V2.9\X86\TcpClient\C#Web\WebApplication1\obj\x86\Debug\WebApplication1.dll
+G:\UHF\UHFCode\CF5300\CF_SDK_V2.9\X86\TcpClient\C#Web\WebApplication1\obj\x86\Debug\WebApplication1.pdb
+G:\UHF\UHFCode\CF5300\SW_SDK_V2.9\TcpClient\CSharpWeb\WebApplication1\bin\x86\Debug\WebApplication1.dll
+G:\UHF\UHFCode\CF5300\SW_SDK_V2.9\TcpClient\CSharpWeb\WebApplication1\bin\x86\Debug\WebApplication1.pdb
+G:\UHF\UHFCode\CF5300\SW_SDK_V2.9\TcpClient\CSharpWeb\WebApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\UHF\UHFCode\CF5300\SW_SDK_V2.9\TcpClient\CSharpWeb\WebApplication1\obj\x86\Debug\WebApplication1.dll
+G:\UHF\UHFCode\CF5300\SW_SDK_V2.9\TcpClient\CSharpWeb\WebApplication1\obj\x86\Debug\WebApplication1.pdb
+G:\UHF\UHFCode\CF5300\SW_SDK_V2.9\TcpClient\X64\CSharpWeb\WebApplication1\bin\x86\Debug\WebApplication1.dll
+G:\UHF\UHFCode\CF5300\SW_SDK_V2.9\TcpClient\X64\CSharpWeb\WebApplication1\bin\x86\Debug\WebApplication1.pdb
+G:\UHF\UHFCode\CF5300\SW_SDK_V2.9\TcpClient\X64\CSharpWeb\WebApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\UHF\UHFCode\CF5300\SW_SDK_V2.9\TcpClient\X64\CSharpWeb\WebApplication1\obj\x86\Debug\WebApplication1.dll
+G:\UHF\UHFCode\CF5300\SW_SDK_V2.9\TcpClient\X64\CSharpWeb\WebApplication1\obj\x86\Debug\WebApplication1.pdb

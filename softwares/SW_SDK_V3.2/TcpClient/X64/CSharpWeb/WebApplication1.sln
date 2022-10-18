@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{F0E30F87-3AAB-4C5E-A191-12A73BD067B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0E30F87-3AAB-4C5E-A191-12A73BD067B8}.Debug|x64.ActiveCfg = Debug|x64
+		{F0E30F87-3AAB-4C5E-A191-12A73BD067B8}.Debug|x64.Build.0 = Debug|x64
+		{F0E30F87-3AAB-4C5E-A191-12A73BD067B8}.Release|x64.ActiveCfg = Release|x64
+		{F0E30F87-3AAB-4C5E-A191-12A73BD067B8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

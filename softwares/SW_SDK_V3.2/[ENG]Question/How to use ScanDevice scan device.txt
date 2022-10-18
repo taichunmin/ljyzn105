@@ -1,0 +1,8 @@
+This software is used for RJ45 device to find and set IP, not applicable for WIFI and 4G.
+The device default IP is 192.168.1.250, default port is 60000.
+
+If the computer is directly connected to the device with the network cable, please set the COMPUTER IP as fixed IP first. DHCP is not supported.
+
+First open the software, if prompted firewall allow window, please click allow.Also Allow the software to access the network if it is a LINUX version.
+Then click Scan or Start button to scan device ( Warining:If the device and the computer are directly connected to the network, cross-network detection is supported, please first set the computer fixed IP, do not support the computer network DHCP)
+Then, if a device is found, double-click the list to network the device.

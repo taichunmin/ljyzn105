@@ -1,0 +1,15 @@
+D:\Test\WebApplication1\WebApplication1\bin\x64\Debug\WebApplication1.dll
+D:\Test\WebApplication1\WebApplication1\bin\x64\Debug\WebApplication1.pdb
+D:\Test\WebApplication1\WebApplication1\obj\x64\Debug\ResolveAssemblyReference.cache
+D:\Test\WebApplication1\WebApplication1\obj\x64\Debug\WebApplication1.dll
+D:\Test\WebApplication1\WebApplication1\obj\x64\Debug\WebApplication1.pdb
+G:\UHF\UHFCode\CF5300\CF_SDK_V2.9\X86\TcpClient\C#Web\WebApplication1\bin\x64\Debug\WebApplication1.dll
+G:\UHF\UHFCode\CF5300\CF_SDK_V2.9\X86\TcpClient\C#Web\WebApplication1\bin\x64\Debug\WebApplication1.pdb
+G:\UHF\UHFCode\CF5300\CF_SDK_V2.9\X86\TcpClient\C#Web\WebApplication1\obj\x64\Debug\ResolveAssemblyReference.cache
+G:\UHF\UHFCode\CF5300\CF_SDK_V2.9\X86\TcpClient\C#Web\WebApplication1\obj\x64\Debug\WebApplication1.dll
+G:\UHF\UHFCode\CF5300\CF_SDK_V2.9\X86\TcpClient\C#Web\WebApplication1\obj\x64\Debug\WebApplication1.pdb
+G:\UHF\UHFCode\CF5300\SW_SDK_V2.9\TcpClient\X64\CSharpWeb\WebApplication1\bin\x64\Debug\WebApplication1.dll
+G:\UHF\UHFCode\CF5300\SW_SDK_V2.9\TcpClient\X64\CSharpWeb\WebApplication1\bin\x64\Debug\WebApplication1.pdb
+G:\UHF\UHFCode\CF5300\SW_SDK_V2.9\TcpClient\X64\CSharpWeb\WebApplication1\obj\x64\Debug\ResolveAssemblyReference.cache
+G:\UHF\UHFCode\CF5300\SW_SDK_V2.9\TcpClient\X64\CSharpWeb\WebApplication1\obj\x64\Debug\WebApplication1.dll
+G:\UHF\UHFCode\CF5300\SW_SDK_V2.9\TcpClient\X64\CSharpWeb\WebApplication1\obj\x64\Debug\WebApplication1.pdb

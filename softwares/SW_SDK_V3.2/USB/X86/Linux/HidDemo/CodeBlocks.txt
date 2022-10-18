@@ -1,0 +1,8 @@
+Compiler with CodeBlocks
+
+sudo chmod 666 /dev/bus/usb/001/00*
+
+[Warning]
+please install libusb-1.0-0-dev first
+
+sudo apt-get install libusb-1.0-0-dev

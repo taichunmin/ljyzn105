@@ -1,0 +1,6 @@
+When you want to read a specified tag or a specific tag, you can use the mask or password function.
+Open ReaderSoft , then AdvanceSet->Password,  open it and input 8 bit password, then the reader only can read same password with your set. Warning: The label default password is 00000000, you need use Writer to write password first, you can read How to write label file first.
+
+Also you can use Mask function to read specified tag,  AdvanceSet -> Mask , open it then Start(Hex) set 0, then input MaskData(Hex).
+Eg:  If you only want to 1122 begin tag,  AdvanceSet -> Mask, open it, then Start(Hex) set 0, then input MaskData as 1122, then click set. After these, the reader only can read such as 11223344,112233456778 like these tag.
+

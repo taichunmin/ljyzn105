@@ -1,0 +1,11 @@
+The device supports RJ45, WIFI, 4G access to remote server.
+
+Setting:
+Using ReaderSoft £¬ParameterSet->Interface select interface such as RJ45, WIFI£¬4G.
+ParameterSet->WorkMode select ActiveMode.
+Network Settings->RemoteIP input RemoteIP address, RemotePort input listening port.
+If you want to use remote domain. Network Settings->DNS, open it, then input Domain Name, such as www.google.com, do not input HTTTP://.  Warning: Not support HTTPS crypt web.
+
+If you use WIFI interface , you need Netwrok Settings-> RouteSSID and Password input SSID and WIFI password.
+
+

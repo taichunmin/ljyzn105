@@ -1,0 +1,6 @@
+Compiler with CodeBlocks
+
+[Warning]
+please install libusb-1.0-0-dev first
+
+sudo apt-get install libusb-1.0-0-dev
